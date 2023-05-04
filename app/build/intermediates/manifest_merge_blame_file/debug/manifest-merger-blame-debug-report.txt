@@ -1,0 +1,303 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.residenthomes"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/home/emobilis/AndroidStudioProjects/ResidentHomes/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/home/emobilis/AndroidStudioProjects/ResidentHomes/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->[com.google.firebase:firebase-auth:21.3.0] /home/emobilis/.gradle/caches/transforms-3/05e1d763e3e10cb7037c2f87e8d226d5/transformed/firebase-auth-21.3.0/AndroidManifest.xml:25:5-67
+11-->[com.google.firebase:firebase-auth:21.3.0] /home/emobilis/.gradle/caches/transforms-3/05e1d763e3e10cb7037c2f87e8d226d5/transformed/firebase-auth-21.3.0/AndroidManifest.xml:25:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-auth:21.3.0] /home/emobilis/.gradle/caches/transforms-3/05e1d763e3e10cb7037c2f87e8d226d5/transformed/firebase-auth-21.3.0/AndroidManifest.xml:26:5-79
+12-->[com.google.firebase:firebase-auth:21.3.0] /home/emobilis/.gradle/caches/transforms-3/05e1d763e3e10cb7037c2f87e8d226d5/transformed/firebase-auth-21.3.0/AndroidManifest.xml:26:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->[com.google.android.gms:play-services-measurement-api:21.2.2] /home/emobilis/.gradle/caches/transforms-3/d54ff24ea2bd6bad07f8551889972a85/transformed/play-services-measurement-api-21.2.2/AndroidManifest.xml:24:5-68
+13-->[com.google.android.gms:play-services-measurement-api:21.2.2] /home/emobilis/.gradle/caches/transforms-3/d54ff24ea2bd6bad07f8551889972a85/transformed/play-services-measurement-api-21.2.2/AndroidManifest.xml:24:22-65
+14    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+14-->[com.google.android.gms:play-services-measurement-api:21.2.2] /home/emobilis/.gradle/caches/transforms-3/d54ff24ea2bd6bad07f8551889972a85/transformed/play-services-measurement-api-21.2.2/AndroidManifest.xml:25:5-79
+14-->[com.google.android.gms:play-services-measurement-api:21.2.2] /home/emobilis/.gradle/caches/transforms-3/d54ff24ea2bd6bad07f8551889972a85/transformed/play-services-measurement-api-21.2.2/AndroidManifest.xml:25:22-76
+15    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+15-->[com.google.android.gms:play-services-measurement:21.2.2] /home/emobilis/.gradle/caches/transforms-3/d21b0522edb2f8a38c252609ce22bf02/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:26:5-110
+15-->[com.google.android.gms:play-services-measurement:21.2.2] /home/emobilis/.gradle/caches/transforms-3/d21b0522edb2f8a38c252609ce22bf02/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:26:22-107
+16
+17    <application
+17-->/home/emobilis/AndroidStudioProjects/ResidentHomes/app/src/main/AndroidManifest.xml:5:5-36:19
+18        android:allowBackup="true"
+18-->/home/emobilis/AndroidStudioProjects/ResidentHomes/app/src/main/AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.8.0] /home/emobilis/.gradle/caches/transforms-3/28ea576730d80833e830088c2a60dc7b/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->/home/emobilis/AndroidStudioProjects/ResidentHomes/app/src/main/AndroidManifest.xml:7:9-65
+21        android:debuggable="true"
+22        android:fullBackupContent="@xml/backup_rules"
+22-->/home/emobilis/AndroidStudioProjects/ResidentHomes/app/src/main/AndroidManifest.xml:8:9-54
+23        android:icon="@mipmap/resident_logo"
+23-->/home/emobilis/AndroidStudioProjects/ResidentHomes/app/src/main/AndroidManifest.xml:9:9-45
+24        android:label="@string/app_name"
+24-->/home/emobilis/AndroidStudioProjects/ResidentHomes/app/src/main/AndroidManifest.xml:10:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->/home/emobilis/AndroidStudioProjects/ResidentHomes/app/src/main/AndroidManifest.xml:11:9-54
+26        android:supportsRtl="true"
+26-->/home/emobilis/AndroidStudioProjects/ResidentHomes/app/src/main/AndroidManifest.xml:12:9-35
+27        android:testOnly="true"
+28        android:theme="@style/Theme.ResidentHomes" >
+28-->/home/emobilis/AndroidStudioProjects/ResidentHomes/app/src/main/AndroidManifest.xml:13:9-51
+29        <activity
+29-->/home/emobilis/AndroidStudioProjects/ResidentHomes/app/src/main/AndroidManifest.xml:15:9-17:40
+30            android:name="com.example.residenthomes.DashBActivity"
+30-->/home/emobilis/AndroidStudioProjects/ResidentHomes/app/src/main/AndroidManifest.xml:16:13-42
+31            android:exported="false" />
+31-->/home/emobilis/AndroidStudioProjects/ResidentHomes/app/src/main/AndroidManifest.xml:17:13-37
+32        <activity
+32-->/home/emobilis/AndroidStudioProjects/ResidentHomes/app/src/main/AndroidManifest.xml:18:9-20:40
+33            android:name="com.example.residenthomes.HomeActivity"
+33-->/home/emobilis/AndroidStudioProjects/ResidentHomes/app/src/main/AndroidManifest.xml:19:13-41
+34            android:exported="false" />
+34-->/home/emobilis/AndroidStudioProjects/ResidentHomes/app/src/main/AndroidManifest.xml:20:13-37
+35        <activity
+35-->/home/emobilis/AndroidStudioProjects/ResidentHomes/app/src/main/AndroidManifest.xml:21:9-23:40
+36            android:name="com.example.residenthomes.LoginActivity"
+36-->/home/emobilis/AndroidStudioProjects/ResidentHomes/app/src/main/AndroidManifest.xml:22:13-42
+37            android:exported="false" />
+37-->/home/emobilis/AndroidStudioProjects/ResidentHomes/app/src/main/AndroidManifest.xml:23:13-37
+38        <activity
+38-->/home/emobilis/AndroidStudioProjects/ResidentHomes/app/src/main/AndroidManifest.xml:24:9-26:40
+39            android:name="com.example.residenthomes.RegisterActivity"
+39-->/home/emobilis/AndroidStudioProjects/ResidentHomes/app/src/main/AndroidManifest.xml:25:13-45
+40            android:exported="false" />
+40-->/home/emobilis/AndroidStudioProjects/ResidentHomes/app/src/main/AndroidManifest.xml:26:13-37
+41        <activity
+41-->/home/emobilis/AndroidStudioProjects/ResidentHomes/app/src/main/AndroidManifest.xml:27:9-35:20
+42            android:name="com.example.residenthomes.SplashActivity"
+42-->/home/emobilis/AndroidStudioProjects/ResidentHomes/app/src/main/AndroidManifest.xml:28:13-43
+43            android:exported="true" >
+43-->/home/emobilis/AndroidStudioProjects/ResidentHomes/app/src/main/AndroidManifest.xml:29:13-36
+44            <intent-filter>
+44-->/home/emobilis/AndroidStudioProjects/ResidentHomes/app/src/main/AndroidManifest.xml:30:13-34:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->/home/emobilis/AndroidStudioProjects/ResidentHomes/app/src/main/AndroidManifest.xml:31:17-69
+45-->/home/emobilis/AndroidStudioProjects/ResidentHomes/app/src/main/AndroidManifest.xml:31:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->/home/emobilis/AndroidStudioProjects/ResidentHomes/app/src/main/AndroidManifest.xml:33:17-77
+47-->/home/emobilis/AndroidStudioProjects/ResidentHomes/app/src/main/AndroidManifest.xml:33:27-74
+48            </intent-filter>
+49        </activity>
+50
+51        <service
+51-->[com.google.firebase:firebase-database-ktx:20.2.0] /home/emobilis/.gradle/caches/transforms-3/613bfc5702d5783650de8868c3212942/transformed/firebase-database-ktx-20.2.0/AndroidManifest.xml:11:9-17:19
+52            android:name="com.google.firebase.components.ComponentDiscoveryService"
+52-->[com.google.firebase:firebase-database-ktx:20.2.0] /home/emobilis/.gradle/caches/transforms-3/613bfc5702d5783650de8868c3212942/transformed/firebase-database-ktx-20.2.0/AndroidManifest.xml:12:13-84
+53            android:directBootAware="true"
+53-->[com.google.firebase:firebase-common:20.3.2] /home/emobilis/.gradle/caches/transforms-3/1f19873bb435b37a3d5c1dcf657e1fce/transformed/firebase-common-20.3.2/AndroidManifest.xml:34:13-43
+54            android:exported="false" >
+54-->[com.google.firebase:firebase-database-ktx:20.2.0] /home/emobilis/.gradle/caches/transforms-3/613bfc5702d5783650de8868c3212942/transformed/firebase-database-ktx-20.2.0/AndroidManifest.xml:13:13-37
+55            <meta-data
+55-->[com.google.firebase:firebase-database-ktx:20.2.0] /home/emobilis/.gradle/caches/transforms-3/613bfc5702d5783650de8868c3212942/transformed/firebase-database-ktx-20.2.0/AndroidManifest.xml:14:13-16:85
+56                android:name="com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseKtxRegistrar"
+56-->[com.google.firebase:firebase-database-ktx:20.2.0] /home/emobilis/.gradle/caches/transforms-3/613bfc5702d5783650de8868c3212942/transformed/firebase-database-ktx-20.2.0/AndroidManifest.xml:15:17-124
+57                android:value="com.google.firebase.components.ComponentRegistrar" />
+57-->[com.google.firebase:firebase-database-ktx:20.2.0] /home/emobilis/.gradle/caches/transforms-3/613bfc5702d5783650de8868c3212942/transformed/firebase-database-ktx-20.2.0/AndroidManifest.xml:16:17-82
+58            <meta-data
+58-->[com.google.firebase:firebase-analytics-ktx:21.2.2] /home/emobilis/.gradle/caches/transforms-3/fb2e4c872853a50edc778682b41df511/transformed/firebase-analytics-ktx-21.2.2/AndroidManifest.xml:11:13-13:85
+59                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+59-->[com.google.firebase:firebase-analytics-ktx:21.2.2] /home/emobilis/.gradle/caches/transforms-3/fb2e4c872853a50edc778682b41df511/transformed/firebase-analytics-ktx-21.2.2/AndroidManifest.xml:12:17-126
+60                android:value="com.google.firebase.components.ComponentRegistrar" />
+60-->[com.google.firebase:firebase-analytics-ktx:21.2.2] /home/emobilis/.gradle/caches/transforms-3/fb2e4c872853a50edc778682b41df511/transformed/firebase-analytics-ktx-21.2.2/AndroidManifest.xml:13:17-82
+61            <meta-data
+61-->[com.google.firebase:firebase-auth-ktx:21.3.0] /home/emobilis/.gradle/caches/transforms-3/8dd324bd6a12fdc3e118e8b27fab4f3a/transformed/firebase-auth-ktx-21.3.0/AndroidManifest.xml:11:13-13:85
+62                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar"
+62-->[com.google.firebase:firebase-auth-ktx:21.3.0] /home/emobilis/.gradle/caches/transforms-3/8dd324bd6a12fdc3e118e8b27fab4f3a/transformed/firebase-auth-ktx-21.3.0/AndroidManifest.xml:12:17-116
+63                android:value="com.google.firebase.components.ComponentRegistrar" />
+63-->[com.google.firebase:firebase-auth-ktx:21.3.0] /home/emobilis/.gradle/caches/transforms-3/8dd324bd6a12fdc3e118e8b27fab4f3a/transformed/firebase-auth-ktx-21.3.0/AndroidManifest.xml:13:17-82
+64            <meta-data
+64-->[com.google.firebase:firebase-common-ktx:20.3.2] /home/emobilis/.gradle/caches/transforms-3/9a54bf7473b42cd89be49120e83dd5b6/transformed/firebase-common-ktx-20.3.2/AndroidManifest.xml:14:13-16:85
+65                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+65-->[com.google.firebase:firebase-common-ktx:20.3.2] /home/emobilis/.gradle/caches/transforms-3/9a54bf7473b42cd89be49120e83dd5b6/transformed/firebase-common-ktx-20.3.2/AndroidManifest.xml:15:17-113
+66                android:value="com.google.firebase.components.ComponentRegistrar" />
+66-->[com.google.firebase:firebase-common-ktx:20.3.2] /home/emobilis/.gradle/caches/transforms-3/9a54bf7473b42cd89be49120e83dd5b6/transformed/firebase-common-ktx-20.3.2/AndroidManifest.xml:16:17-82
+67            <meta-data
+67-->[com.google.firebase:firebase-auth:21.3.0] /home/emobilis/.gradle/caches/transforms-3/05e1d763e3e10cb7037c2f87e8d226d5/transformed/firebase-auth-21.3.0/AndroidManifest.xml:69:13-71:85
+68                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+68-->[com.google.firebase:firebase-auth:21.3.0] /home/emobilis/.gradle/caches/transforms-3/05e1d763e3e10cb7037c2f87e8d226d5/transformed/firebase-auth-21.3.0/AndroidManifest.xml:70:17-109
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[com.google.firebase:firebase-auth:21.3.0] /home/emobilis/.gradle/caches/transforms-3/05e1d763e3e10cb7037c2f87e8d226d5/transformed/firebase-auth-21.3.0/AndroidManifest.xml:71:17-82
+70            <meta-data
+70-->[com.google.firebase:firebase-database:20.2.0] /home/emobilis/.gradle/caches/transforms-3/d07a315072120bc059a0faedfbef44b0/transformed/firebase-database-20.2.0/AndroidManifest.xml:31:13-33:85
+71                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+71-->[com.google.firebase:firebase-database:20.2.0] /home/emobilis/.gradle/caches/transforms-3/d07a315072120bc059a0faedfbef44b0/transformed/firebase-database-20.2.0/AndroidManifest.xml:32:17-109
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[com.google.firebase:firebase-database:20.2.0] /home/emobilis/.gradle/caches/transforms-3/d07a315072120bc059a0faedfbef44b0/transformed/firebase-database-20.2.0/AndroidManifest.xml:33:17-82
+73            <meta-data
+73-->[com.google.android.gms:play-services-measurement-api:21.2.2] /home/emobilis/.gradle/caches/transforms-3/d54ff24ea2bd6bad07f8551889972a85/transformed/play-services-measurement-api-21.2.2/AndroidManifest.xml:31:13-33:85
+74                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+74-->[com.google.android.gms:play-services-measurement-api:21.2.2] /home/emobilis/.gradle/caches/transforms-3/d54ff24ea2bd6bad07f8551889972a85/transformed/play-services-measurement-api-21.2.2/AndroidManifest.xml:32:17-139
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[com.google.android.gms:play-services-measurement-api:21.2.2] /home/emobilis/.gradle/caches/transforms-3/d54ff24ea2bd6bad07f8551889972a85/transformed/play-services-measurement-api-21.2.2/AndroidManifest.xml:33:17-82
+76            <meta-data
+76-->[com.google.firebase:firebase-installations:17.1.3] /home/emobilis/.gradle/caches/transforms-3/00e6fa1e519e73303aaafc357e94c60f/transformed/firebase-installations-17.1.3/AndroidManifest.xml:17:13-19:85
+77                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+77-->[com.google.firebase:firebase-installations:17.1.3] /home/emobilis/.gradle/caches/transforms-3/00e6fa1e519e73303aaafc357e94c60f/transformed/firebase-installations-17.1.3/AndroidManifest.xml:18:17-127
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[com.google.firebase:firebase-installations:17.1.3] /home/emobilis/.gradle/caches/transforms-3/00e6fa1e519e73303aaafc357e94c60f/transformed/firebase-installations-17.1.3/AndroidManifest.xml:19:17-82
+79        </service>
+80
+81        <activity
+81-->[com.google.firebase:firebase-auth:21.3.0] /home/emobilis/.gradle/caches/transforms-3/05e1d763e3e10cb7037c2f87e8d226d5/transformed/firebase-auth-21.3.0/AndroidManifest.xml:29:9-46:20
+82            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+82-->[com.google.firebase:firebase-auth:21.3.0] /home/emobilis/.gradle/caches/transforms-3/05e1d763e3e10cb7037c2f87e8d226d5/transformed/firebase-auth-21.3.0/AndroidManifest.xml:30:13-80
+83            android:excludeFromRecents="true"
+83-->[com.google.firebase:firebase-auth:21.3.0] /home/emobilis/.gradle/caches/transforms-3/05e1d763e3e10cb7037c2f87e8d226d5/transformed/firebase-auth-21.3.0/AndroidManifest.xml:31:13-46
+84            android:exported="true"
+84-->[com.google.firebase:firebase-auth:21.3.0] /home/emobilis/.gradle/caches/transforms-3/05e1d763e3e10cb7037c2f87e8d226d5/transformed/firebase-auth-21.3.0/AndroidManifest.xml:32:13-36
+85            android:launchMode="singleTask"
+85-->[com.google.firebase:firebase-auth:21.3.0] /home/emobilis/.gradle/caches/transforms-3/05e1d763e3e10cb7037c2f87e8d226d5/transformed/firebase-auth-21.3.0/AndroidManifest.xml:33:13-44
+86            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+86-->[com.google.firebase:firebase-auth:21.3.0] /home/emobilis/.gradle/caches/transforms-3/05e1d763e3e10cb7037c2f87e8d226d5/transformed/firebase-auth-21.3.0/AndroidManifest.xml:34:13-72
+87            <intent-filter>
+87-->[com.google.firebase:firebase-auth:21.3.0] /home/emobilis/.gradle/caches/transforms-3/05e1d763e3e10cb7037c2f87e8d226d5/transformed/firebase-auth-21.3.0/AndroidManifest.xml:35:13-45:29
+88                <action android:name="android.intent.action.VIEW" />
+88-->[com.google.firebase:firebase-auth:21.3.0] /home/emobilis/.gradle/caches/transforms-3/05e1d763e3e10cb7037c2f87e8d226d5/transformed/firebase-auth-21.3.0/AndroidManifest.xml:36:17-69
+88-->[com.google.firebase:firebase-auth:21.3.0] /home/emobilis/.gradle/caches/transforms-3/05e1d763e3e10cb7037c2f87e8d226d5/transformed/firebase-auth-21.3.0/AndroidManifest.xml:36:25-66
+89
+90                <category android:name="android.intent.category.DEFAULT" />
+90-->[com.google.firebase:firebase-auth:21.3.0] /home/emobilis/.gradle/caches/transforms-3/05e1d763e3e10cb7037c2f87e8d226d5/transformed/firebase-auth-21.3.0/AndroidManifest.xml:38:17-76
+90-->[com.google.firebase:firebase-auth:21.3.0] /home/emobilis/.gradle/caches/transforms-3/05e1d763e3e10cb7037c2f87e8d226d5/transformed/firebase-auth-21.3.0/AndroidManifest.xml:38:27-73
+91                <category android:name="android.intent.category.BROWSABLE" />
+91-->[com.google.firebase:firebase-auth:21.3.0] /home/emobilis/.gradle/caches/transforms-3/05e1d763e3e10cb7037c2f87e8d226d5/transformed/firebase-auth-21.3.0/AndroidManifest.xml:39:17-78
+91-->[com.google.firebase:firebase-auth:21.3.0] /home/emobilis/.gradle/caches/transforms-3/05e1d763e3e10cb7037c2f87e8d226d5/transformed/firebase-auth-21.3.0/AndroidManifest.xml:39:27-75
+92
+93                <data
+93-->[com.google.firebase:firebase-auth:21.3.0] /home/emobilis/.gradle/caches/transforms-3/05e1d763e3e10cb7037c2f87e8d226d5/transformed/firebase-auth-21.3.0/AndroidManifest.xml:41:17-44:51
+94                    android:host="firebase.auth"
+94-->[com.google.firebase:firebase-auth:21.3.0] /home/emobilis/.gradle/caches/transforms-3/05e1d763e3e10cb7037c2f87e8d226d5/transformed/firebase-auth-21.3.0/AndroidManifest.xml:42:21-49
+95                    android:path="/"
+95-->[com.google.firebase:firebase-auth:21.3.0] /home/emobilis/.gradle/caches/transforms-3/05e1d763e3e10cb7037c2f87e8d226d5/transformed/firebase-auth-21.3.0/AndroidManifest.xml:43:21-37
+96                    android:scheme="genericidp" />
+96-->[com.google.firebase:firebase-auth:21.3.0] /home/emobilis/.gradle/caches/transforms-3/05e1d763e3e10cb7037c2f87e8d226d5/transformed/firebase-auth-21.3.0/AndroidManifest.xml:44:21-48
+97            </intent-filter>
+98        </activity>
+99        <activity
+99-->[com.google.firebase:firebase-auth:21.3.0] /home/emobilis/.gradle/caches/transforms-3/05e1d763e3e10cb7037c2f87e8d226d5/transformed/firebase-auth-21.3.0/AndroidManifest.xml:47:9-64:20
+100            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+100-->[com.google.firebase:firebase-auth:21.3.0] /home/emobilis/.gradle/caches/transforms-3/05e1d763e3e10cb7037c2f87e8d226d5/transformed/firebase-auth-21.3.0/AndroidManifest.xml:48:13-79
+101            android:excludeFromRecents="true"
+101-->[com.google.firebase:firebase-auth:21.3.0] /home/emobilis/.gradle/caches/transforms-3/05e1d763e3e10cb7037c2f87e8d226d5/transformed/firebase-auth-21.3.0/AndroidManifest.xml:49:13-46
+102            android:exported="true"
+102-->[com.google.firebase:firebase-auth:21.3.0] /home/emobilis/.gradle/caches/transforms-3/05e1d763e3e10cb7037c2f87e8d226d5/transformed/firebase-auth-21.3.0/AndroidManifest.xml:50:13-36
+103            android:launchMode="singleTask"
+103-->[com.google.firebase:firebase-auth:21.3.0] /home/emobilis/.gradle/caches/transforms-3/05e1d763e3e10cb7037c2f87e8d226d5/transformed/firebase-auth-21.3.0/AndroidManifest.xml:51:13-44
+104            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+104-->[com.google.firebase:firebase-auth:21.3.0] /home/emobilis/.gradle/caches/transforms-3/05e1d763e3e10cb7037c2f87e8d226d5/transformed/firebase-auth-21.3.0/AndroidManifest.xml:52:13-72
+105            <intent-filter>
+105-->[com.google.firebase:firebase-auth:21.3.0] /home/emobilis/.gradle/caches/transforms-3/05e1d763e3e10cb7037c2f87e8d226d5/transformed/firebase-auth-21.3.0/AndroidManifest.xml:53:13-63:29
+106                <action android:name="android.intent.action.VIEW" />
+106-->[com.google.firebase:firebase-auth:21.3.0] /home/emobilis/.gradle/caches/transforms-3/05e1d763e3e10cb7037c2f87e8d226d5/transformed/firebase-auth-21.3.0/AndroidManifest.xml:36:17-69
+106-->[com.google.firebase:firebase-auth:21.3.0] /home/emobilis/.gradle/caches/transforms-3/05e1d763e3e10cb7037c2f87e8d226d5/transformed/firebase-auth-21.3.0/AndroidManifest.xml:36:25-66
+107
+108                <category android:name="android.intent.category.DEFAULT" />
+108-->[com.google.firebase:firebase-auth:21.3.0] /home/emobilis/.gradle/caches/transforms-3/05e1d763e3e10cb7037c2f87e8d226d5/transformed/firebase-auth-21.3.0/AndroidManifest.xml:38:17-76
+108-->[com.google.firebase:firebase-auth:21.3.0] /home/emobilis/.gradle/caches/transforms-3/05e1d763e3e10cb7037c2f87e8d226d5/transformed/firebase-auth-21.3.0/AndroidManifest.xml:38:27-73
+109                <category android:name="android.intent.category.BROWSABLE" />
+109-->[com.google.firebase:firebase-auth:21.3.0] /home/emobilis/.gradle/caches/transforms-3/05e1d763e3e10cb7037c2f87e8d226d5/transformed/firebase-auth-21.3.0/AndroidManifest.xml:39:17-78
+109-->[com.google.firebase:firebase-auth:21.3.0] /home/emobilis/.gradle/caches/transforms-3/05e1d763e3e10cb7037c2f87e8d226d5/transformed/firebase-auth-21.3.0/AndroidManifest.xml:39:27-75
+110
+111                <data
+111-->[com.google.firebase:firebase-auth:21.3.0] /home/emobilis/.gradle/caches/transforms-3/05e1d763e3e10cb7037c2f87e8d226d5/transformed/firebase-auth-21.3.0/AndroidManifest.xml:41:17-44:51
+112                    android:host="firebase.auth"
+112-->[com.google.firebase:firebase-auth:21.3.0] /home/emobilis/.gradle/caches/transforms-3/05e1d763e3e10cb7037c2f87e8d226d5/transformed/firebase-auth-21.3.0/AndroidManifest.xml:42:21-49
+113                    android:path="/"
+113-->[com.google.firebase:firebase-auth:21.3.0] /home/emobilis/.gradle/caches/transforms-3/05e1d763e3e10cb7037c2f87e8d226d5/transformed/firebase-auth-21.3.0/AndroidManifest.xml:43:21-37
+114                    android:scheme="recaptcha" />
+114-->[com.google.firebase:firebase-auth:21.3.0] /home/emobilis/.gradle/caches/transforms-3/05e1d763e3e10cb7037c2f87e8d226d5/transformed/firebase-auth-21.3.0/AndroidManifest.xml:44:21-48
+115            </intent-filter>
+116        </activity>
+117
+118        <provider
+118-->[com.google.firebase:firebase-common:20.3.2] /home/emobilis/.gradle/caches/transforms-3/1f19873bb435b37a3d5c1dcf657e1fce/transformed/firebase-common-20.3.2/AndroidManifest.xml:25:9-30:39
+119            android:name="com.google.firebase.provider.FirebaseInitProvider"
+119-->[com.google.firebase:firebase-common:20.3.2] /home/emobilis/.gradle/caches/transforms-3/1f19873bb435b37a3d5c1dcf657e1fce/transformed/firebase-common-20.3.2/AndroidManifest.xml:26:13-77
+120            android:authorities="com.example.residenthomes.firebaseinitprovider"
+120-->[com.google.firebase:firebase-common:20.3.2] /home/emobilis/.gradle/caches/transforms-3/1f19873bb435b37a3d5c1dcf657e1fce/transformed/firebase-common-20.3.2/AndroidManifest.xml:27:13-72
+121            android:directBootAware="true"
+121-->[com.google.firebase:firebase-common:20.3.2] /home/emobilis/.gradle/caches/transforms-3/1f19873bb435b37a3d5c1dcf657e1fce/transformed/firebase-common-20.3.2/AndroidManifest.xml:28:13-43
+122            android:exported="false"
+122-->[com.google.firebase:firebase-common:20.3.2] /home/emobilis/.gradle/caches/transforms-3/1f19873bb435b37a3d5c1dcf657e1fce/transformed/firebase-common-20.3.2/AndroidManifest.xml:29:13-37
+123            android:initOrder="100" />
+123-->[com.google.firebase:firebase-common:20.3.2] /home/emobilis/.gradle/caches/transforms-3/1f19873bb435b37a3d5c1dcf657e1fce/transformed/firebase-common-20.3.2/AndroidManifest.xml:30:13-36
+124
+125        <activity
+125-->[com.google.android.gms:play-services-base:18.1.0] /home/emobilis/.gradle/caches/transforms-3/3b27d1c1d9449960d28cb5caa2b8d7d2/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+126            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+126-->[com.google.android.gms:play-services-base:18.1.0] /home/emobilis/.gradle/caches/transforms-3/3b27d1c1d9449960d28cb5caa2b8d7d2/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+127            android:exported="false"
+127-->[com.google.android.gms:play-services-base:18.1.0] /home/emobilis/.gradle/caches/transforms-3/3b27d1c1d9449960d28cb5caa2b8d7d2/transformed/play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+128            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+128-->[com.google.android.gms:play-services-base:18.1.0] /home/emobilis/.gradle/caches/transforms-3/3b27d1c1d9449960d28cb5caa2b8d7d2/transformed/play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+129
+130        <receiver
+130-->[com.google.android.gms:play-services-measurement:21.2.2] /home/emobilis/.gradle/caches/transforms-3/d21b0522edb2f8a38c252609ce22bf02/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:29:9-33:20
+131            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+131-->[com.google.android.gms:play-services-measurement:21.2.2] /home/emobilis/.gradle/caches/transforms-3/d21b0522edb2f8a38c252609ce22bf02/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:30:13-85
+132            android:enabled="true"
+132-->[com.google.android.gms:play-services-measurement:21.2.2] /home/emobilis/.gradle/caches/transforms-3/d21b0522edb2f8a38c252609ce22bf02/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:31:13-35
+133            android:exported="false" >
+133-->[com.google.android.gms:play-services-measurement:21.2.2] /home/emobilis/.gradle/caches/transforms-3/d21b0522edb2f8a38c252609ce22bf02/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:32:13-37
+134        </receiver>
+135
+136        <service
+136-->[com.google.android.gms:play-services-measurement:21.2.2] /home/emobilis/.gradle/caches/transforms-3/d21b0522edb2f8a38c252609ce22bf02/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:35:9-38:40
+137            android:name="com.google.android.gms.measurement.AppMeasurementService"
+137-->[com.google.android.gms:play-services-measurement:21.2.2] /home/emobilis/.gradle/caches/transforms-3/d21b0522edb2f8a38c252609ce22bf02/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:36:13-84
+138            android:enabled="true"
+138-->[com.google.android.gms:play-services-measurement:21.2.2] /home/emobilis/.gradle/caches/transforms-3/d21b0522edb2f8a38c252609ce22bf02/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:37:13-35
+139            android:exported="false" />
+139-->[com.google.android.gms:play-services-measurement:21.2.2] /home/emobilis/.gradle/caches/transforms-3/d21b0522edb2f8a38c252609ce22bf02/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:38:13-37
+140        <service
+140-->[com.google.android.gms:play-services-measurement:21.2.2] /home/emobilis/.gradle/caches/transforms-3/d21b0522edb2f8a38c252609ce22bf02/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:39:9-43:72
+141            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+141-->[com.google.android.gms:play-services-measurement:21.2.2] /home/emobilis/.gradle/caches/transforms-3/d21b0522edb2f8a38c252609ce22bf02/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:40:13-87
+142            android:enabled="true"
+142-->[com.google.android.gms:play-services-measurement:21.2.2] /home/emobilis/.gradle/caches/transforms-3/d21b0522edb2f8a38c252609ce22bf02/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:41:13-35
+143            android:exported="false"
+143-->[com.google.android.gms:play-services-measurement:21.2.2] /home/emobilis/.gradle/caches/transforms-3/d21b0522edb2f8a38c252609ce22bf02/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:42:13-37
+144            android:permission="android.permission.BIND_JOB_SERVICE" />
+144-->[com.google.android.gms:play-services-measurement:21.2.2] /home/emobilis/.gradle/caches/transforms-3/d21b0522edb2f8a38c252609ce22bf02/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:43:13-69
+145
+146        <meta-data
+146-->[com.google.android.gms:play-services-basement:18.1.0] /home/emobilis/.gradle/caches/transforms-3/88a414c9df1028b10502d50b471d47f2/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+147            android:name="com.google.android.gms.version"
+147-->[com.google.android.gms:play-services-basement:18.1.0] /home/emobilis/.gradle/caches/transforms-3/88a414c9df1028b10502d50b471d47f2/transformed/play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+148            android:value="@integer/google_play_services_version" />
+148-->[com.google.android.gms:play-services-basement:18.1.0] /home/emobilis/.gradle/caches/transforms-3/88a414c9df1028b10502d50b471d47f2/transformed/play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+149
+150        <provider
+150-->[androidx.emoji2:emoji2:1.0.0] /home/emobilis/.gradle/caches/transforms-3/5040b3c996b370c6a1814a0ff13ec194/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+151            android:name="androidx.startup.InitializationProvider"
+151-->[androidx.emoji2:emoji2:1.0.0] /home/emobilis/.gradle/caches/transforms-3/5040b3c996b370c6a1814a0ff13ec194/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+152            android:authorities="com.example.residenthomes.androidx-startup"
+152-->[androidx.emoji2:emoji2:1.0.0] /home/emobilis/.gradle/caches/transforms-3/5040b3c996b370c6a1814a0ff13ec194/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+153            android:exported="false" >
+153-->[androidx.emoji2:emoji2:1.0.0] /home/emobilis/.gradle/caches/transforms-3/5040b3c996b370c6a1814a0ff13ec194/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+154            <meta-data
+154-->[androidx.emoji2:emoji2:1.0.0] /home/emobilis/.gradle/caches/transforms-3/5040b3c996b370c6a1814a0ff13ec194/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+155                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+155-->[androidx.emoji2:emoji2:1.0.0] /home/emobilis/.gradle/caches/transforms-3/5040b3c996b370c6a1814a0ff13ec194/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+156                android:value="androidx.startup" />
+156-->[androidx.emoji2:emoji2:1.0.0] /home/emobilis/.gradle/caches/transforms-3/5040b3c996b370c6a1814a0ff13ec194/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+157            <meta-data
+157-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/emobilis/.gradle/caches/transforms-3/323eb3f8a8b3821f852b5afc7a85439b/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+158                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+158-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/emobilis/.gradle/caches/transforms-3/323eb3f8a8b3821f852b5afc7a85439b/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+159                android:value="androidx.startup" />
+159-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/emobilis/.gradle/caches/transforms-3/323eb3f8a8b3821f852b5afc7a85439b/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+160        </provider>
+161    </application>
+162
+163</manifest>
